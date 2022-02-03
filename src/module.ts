@@ -1,4 +1,4 @@
-import { resolve } from 'path'
+import { resolve } from 'pathe'
 import { fileURLToPath } from 'url'
 import { defineNuxtModule, addPlugin, useNuxt, resolveFiles } from '@nuxt/kit'
 
