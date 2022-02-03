@@ -66,6 +66,7 @@ const statusMessages = {
   '598': 'Network read timeout error',
   '599': 'Network connect timeout error',
 }
+import { defineNuxtRouteMiddleware } from '#imports'
 export default defineNuxtRouteMiddleware(to => {
   const { $config } = useNuxtApp()
   if ($config) {
