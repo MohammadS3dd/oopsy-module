@@ -21,11 +21,12 @@
 }
 </style>
 <script setup>
+import { useNuxtApp } from '#app'
+
 const nuxtApp = useNuxtApp()
 const route = useRoute()
 const code = route.params.code
 if (process.server) {
-    const nuxtApp = useNuxtApp()
     const error = new Error()
     error.statusCode = code
     nuxtApp.ssrContext.nuxt.error = error;

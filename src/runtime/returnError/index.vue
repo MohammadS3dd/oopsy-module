@@ -2,6 +2,8 @@
     <div>working</div>
 </template>
 <script setup>
+import { useNuxtApp } from '#app'
+
 definePageMeta({
     middleware: 'oopsy-redirect'
 })
