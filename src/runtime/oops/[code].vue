@@ -1,6 +1,25 @@
 <template>
-    <div class="flex h-screen justify-center items-center text-red-500 text-4xl">{{ code }}</div>
+    <div class="oopsy__error">{{ code }}</div>
 </template> 
+<style >
+.oopsy__error {
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: inherit;
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    color: rgba(239, 68, 68, 1);
+}
+</style>
 <script setup>
 const nuxtApp = useNuxtApp()
 const route = useRoute()

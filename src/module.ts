@@ -30,7 +30,7 @@ export default defineNuxtModule<ModuleOptions>({
     'pages:middleware:extend'(middleware) {
       middleware.push({
         name: 'oopsy-redirect',
-        path: resolve(__dirname, 'runtime/middleware/oopsy-redirect.ts'),
+        path: resolve(__dirname, 'runtime/middleware/oopsy-redirect.mjs'),
         global: false,
       })
       console.log('middlewares', middleware)
