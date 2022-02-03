@@ -1,7 +1,7 @@
 {
   "name": "nuxt-oopsy",
   "description": "simple and light weight nuxt 3 module for ssr error handling.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": "https://github.com/MohammadS3dd/oopsy-module",
   "bugs": "https://github.com/MohammadS3dd/oopsy-module/issues",
   "license": "MIT",
@@ -22,7 +22,7 @@
     "prepack": "nuxt-module-build",
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
-    "prepare": "nuxt-module-build --stub && nuxi prepare playground"
+    "prepare": "nuxt-module-build"
   },
   "dependencies": {
     "@nuxt/kit": "npm:@nuxt/kit-edge@latest"
