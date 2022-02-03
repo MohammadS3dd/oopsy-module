@@ -1,7 +1,7 @@
 {
   "name": "nuxt-oopsy",
   "description": "simple and light weight nuxt 3 module for ssr error handling.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "repository": "https://github.com/MohammadS3dd/oopsy-module",
   "bugs": "https://github.com/MohammadS3dd/oopsy-module/issues",
   "license": "MIT",

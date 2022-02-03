@@ -24,7 +24,7 @@ export default defineNuxtModule<ModuleOptions>({
       pages.push({
         name: 'oops',
         path: '/oops/:code',
-        file: resolve(__dirname, 'runtime/oops/[code].vue'),
+        file: resolve(__dirname, 'runtime/oops/index.vue'),
       })
     },
     'pages:middleware:extend'(middleware) {
