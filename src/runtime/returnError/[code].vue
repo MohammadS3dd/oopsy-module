@@ -1,4 +1,6 @@
 <script setup>
+import { useNuxtApp, useRoute } from '#app'
+
 definePageMeta({
     middleware: 'oopsy-redirect'
 })

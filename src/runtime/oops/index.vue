@@ -21,7 +21,7 @@
 }
 </style>
 <script setup>
-import { useNuxtApp } from '#app'
+import { useNuxtApp, useRoute } from '#app'
 
 const nuxtApp = useNuxtApp()
 const route = useRoute()
