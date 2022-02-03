@@ -4,6 +4,7 @@
 <script setup>
 import { useNuxtApp } from '#app'
 
+
 definePageMeta({
     middleware: 'oopsy-redirect'
 })
@@ -14,7 +15,7 @@ const error = (code) => {
 
 
 }
-const route = useRoute()
+const route = nuxtApp._route || nuxtApp.$route
 const code = route.params.code
 error(code)
 </script>

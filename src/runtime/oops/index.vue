@@ -21,10 +21,10 @@
 }
 </style>
 <script setup>
-import { useNuxtApp, useRoute } from '#app'
+import { useNuxtApp } from '#app'
 
 const nuxtApp = useNuxtApp()
-const route = useRoute()
+const route = nuxtApp._route || nuxtApp.$route
 const code = route.params.code
 if (process.server) {
     const error = new Error()
