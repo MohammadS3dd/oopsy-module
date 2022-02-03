@@ -1,8 +1,7 @@
 import { defineNuxtPlugin } from '#app'
 
 export default defineNuxtPlugin(nuxtApp => {
-  console.log('Plugin by my-module!')
-  console.log(useNuxtApp()._middleware)
+  console.log('Oopsy plugin loaded.')
 
   return {
     provide: {
